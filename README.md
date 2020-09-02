@@ -3,10 +3,12 @@
 Change the following variables to your settings:
 ```
 # Simulator that you want to add images
-simulator="iPhone 11 Pro Max"
-# path to images to add to selected simulator after reset
-imagesDir="/Users/tengfoung/Developments/Bulksplash/images/home/" 
+simulator="iPhone 11 Pro"
 # path to photobook-ios project
-projectDir="/Users/tengfoung/Developments/photobook-ios/"
+projectDir="/Users/$(whoami)/Developments/photobook-ios/"
+# path to PhotoLibraryFiller.app
+fillerAppDir="$(pwd)/PhotoLibraryFiller.app"
+# path to Simulator.app
+simulatorDir="/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
 ```
 
