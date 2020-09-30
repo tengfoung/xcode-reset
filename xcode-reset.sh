@@ -2,8 +2,8 @@
 
 # Simulator that you want to add images
 simulator="iPhone 11 Pro"
-# path to photobook-ios project
-projectDir="/Users/$(whoami)/Developments/photobook-ios/"
+# path to your project
+projectDir="/Users/$(whoami)/Developments/<your project>/"
 # path to PhotoLibraryFiller.app
 fillerAppDir="$(pwd)/PhotoLibraryFiller.app"
 # path to Simulator.app

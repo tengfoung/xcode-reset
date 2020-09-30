@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# path to photobook-ios project
-projectDir="/Users/$(whoami)/Developments/photobook-ios/"
+# path to your project
+projectDir="/Users/$(whoami)/Developments/<your project>/"
 
 sh xcode-kill.sh
 sh xcode-clean.sh "$projectDir"
