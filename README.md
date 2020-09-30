@@ -21,3 +21,18 @@ sh xcode-reset.sh
 sh xcode-reset-minimal.sh
 ```
 
+# xcode-clean-install.sh
+
+Change the following variables to your settings in both `xcode-clean-install.sh`:
+```
+# Path to the installer xip file
+xipPath="~/Downloads/Xcode_12.xip"
+# Destination directory to install
+installDir="/Applications"
+```
+
+To run command:
+```
+sh xcode-clean-install.sh
+```
+

@@ -10,12 +10,7 @@ rm -rf ~/Library/Caches/com.apple.dt.Xcode/*
 rm -rf ~/Library/Developer/Xcode/"iOS DeviceSupport"/10.*
 rm -rf ~/Library/Developer/Xcode/"iOS DeviceSupport"/11.*
 rm -rf ~/Library/Developer/Xcode/"iOS DeviceSupport"/12.*
-rm -rf ~/Library/Developer/Xcode/"iOS DeviceSupport"/13.0*
-rm -rf ~/Library/Developer/Xcode/"iOS DeviceSupport"/13.1*
-rm -rf ~/Library/Developer/Xcode/"iOS DeviceSupport"/13.2*
-rm -rf ~/Library/Developer/Xcode/"iOS DeviceSupport"/13.3*
-rm -rf ~/Library/Developer/Xcode/"iOS DeviceSupport"/13.4*
-rm -rf ~/Library/Developer/Xcode/"iOS DeviceSupport"/13.5*
+rm -rf ~/Library/Developer/Xcode/"iOS DeviceSupport"/13.*
 rm -rf ~/Library/Developer/Xcode/"iOS DeviceSupport"/*/Symbols/System/Library/Caches/*
 rm -rf ~/Library/Developer/Xcode/Archives/*
 rm -rf ~/Library/Developer/CoreSimulator/*
