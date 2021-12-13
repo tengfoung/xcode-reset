@@ -3,11 +3,9 @@
 Change the following variables to your settings in both `xcode-reset.sh` and `xcode-reset-minimal.sh`:
 ```
 # Simulator that you want to add images
-simulator="iPhone 11 Pro"
+simulator="iPhone 13 Pro"
 # path to your project
-projectDir="/Users/$(whoami)/Developments/<your project>/"
-# path to PhotoLibraryFiller.app
-fillerAppDir="$(pwd)/PhotoLibraryFiller.app"
+projectDir="<path to your project root"
 # path to Simulator.app
 simulatorDir="/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
 ```
@@ -26,7 +24,7 @@ sh xcode-reset-minimal.sh
 Change the following variables to your settings in both `xcode-clean-install.sh`:
 ```
 # Path to the installer xip file
-xipPath="~/Downloads/Xcode_12.xip"
+xipPath="~/Downloads/<xcode xip file>"
 # Destination directory to install
 installDir="/Applications"
 ```

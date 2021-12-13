@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # path to your project
-projectDir="/Users/$(whoami)/Developments/<your project>/"
+projectDir="<path to your project directory>"
 
 sh xcode-kill.sh
 sh xcode-clean.sh "$projectDir"
